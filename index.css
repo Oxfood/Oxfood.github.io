@@ -3,6 +3,13 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ .jumbotron {
+     margin-top: 100px;
+ }
+ .jumbotron {
+     border-radius: 0;
+     height: 350px;
+ }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -21,6 +28,7 @@ a.active {
   color: #18BC9C;
   outline: none;
 }
+
 h1,
 h2,
 h3,
@@ -30,7 +38,6 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: blue;
 }
 hr.star-light,
 hr.star-primary {
@@ -104,6 +111,11 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+/*added in to realign button */
+.btn-default {
+  margin-left: 20px;
+}
+
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -198,6 +210,17 @@ section.success {
     padding-top: 75px;
   }
 }
+
+/* added in to realign the two headers on applyforswap.html */
+#Swapformtitle  {
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+#header2 {
+  margin-left: 20px;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
