@@ -14,8 +14,10 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+/*added margin to P */
 p {
   font-size: 20px;
+  margin-left: 20px;
 }
 p.small {
   font-size: 16px;
@@ -218,6 +220,10 @@ section.success {
 }
 
 #header2 {
+  margin-left: 20px;
+}
+#orielh1 {
+  margin-top: 150px;
   margin-left: 20px;
 }
 
