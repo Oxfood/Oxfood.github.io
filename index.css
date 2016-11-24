@@ -224,9 +224,14 @@ section.success {
 #header2 {
   margin-left: 20px;
 }
-#orielh1 {
+#collegeh1 {
   margin-top: 150px;
-  margin-left: 20px;
+  margin-left: 100px;
+}
+
+#collegep {
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 
 #portfolio .portfolio-item {
