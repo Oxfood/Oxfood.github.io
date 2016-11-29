@@ -121,7 +121,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-  background: #2C3E50;
+  background: #f2f2f2;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -131,7 +131,7 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #6A6C6E;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -141,9 +141,10 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #6A6C6E;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #F08080;
@@ -458,6 +459,7 @@ fieldset[disabled] .btn-success.active {
   font-size: 20px;
   line-height: 45px;
 }
+
 .btn:focus,
 .btn:active,
 .btn.active {
