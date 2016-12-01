@@ -230,7 +230,9 @@ section.success {
   margin-top: 40px;
   margin-left: 100px;
 }
-
+#secondheader {
+  margin-top: 40px;
+}
 #collegep {
   margin-left: 100px;
   margin-bottom: 100px;
