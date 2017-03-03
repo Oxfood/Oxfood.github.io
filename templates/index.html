@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
-  <link href="index.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <title> This is Oxfood </title>
 <meta charset="utf-8">
@@ -42,7 +42,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="orielcollege.html">Oriel</a></li>
+      <li><a href="orielcollege">Oriel</a></li>
       <li><a href="stjohns.html">St John's</a></li>
       <li><a href="LMH.html">LMH</a></li>
       <li><a href="pembroke.html">Pembroke</a></li>

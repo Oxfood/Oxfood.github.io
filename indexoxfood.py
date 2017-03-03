@@ -7,4 +7,8 @@ app = Flask("MyApp")
 def index():
     return render_template("index.html")
 
-app.run()
+@app.route("/orielcollege")
+def oriel():
+    return render_template("orielcollege.html")
+
+app.run(debug=True)
